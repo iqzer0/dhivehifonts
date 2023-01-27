@@ -1,0 +1,11 @@
+pkgbase = dhivehi-fonts
+	pkgdesc = Dhivehi Fonts for Arch Linux
+	pkgver = 0.1
+	pkgrel = 1
+	url = https://github.com/iqzer0/dhivehifonts
+	arch = any
+	license = OFL
+	source = https://github.com/iqzer0/dhivehifonts/releases/download/0.1/dhivehifonts-v0.1.zip
+	sha256sums = 5388053ae6e0781b0fab53dd3dba8781156f1ab34bde00d0861f1b05019b8fa2
+
+pkgname = dhivehi-fonts
