@@ -9,6 +9,7 @@ url="https://github.com/iqzer0/dhivehifonts"
 license=('OFL')
 source=(
     "${url}/releases/download/${pkgver}/dhivehifonts-v${pkgver}.zip"
+    'fc-cache-install.hook'
 )
 
 package() {
@@ -18,4 +19,5 @@ package() {
     install -Dm644 ttf/* "${pkgdir}/usr/share/fonts/dhivehifonts/"
 }
 
-sha256sums=('5388053ae6e0781b0fab53dd3dba8781156f1ab34bde00d0861f1b05019b8fa2')
+sha256sums=('5388053ae6e0781b0fab53dd3dba8781156f1ab34bde00d0861f1b05019b8fa2'
+            '8883f7e6e9d574ed52b89256507a6224507925715ddc85b3dfab9683df2f1e25')
